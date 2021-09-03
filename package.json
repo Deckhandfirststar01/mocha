@@ -340,7 +340,7 @@
     "karma-mocha-reporter": "^2.2.4",
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-sauce-launcher": "^1.2.0",
-    "nyc": "^11.2.1",
+    "nyc": "^13.2.0",
     "rimraf": "^2.5.2",
     "through2": "^2.0.1",
     "watchify": "^3.7.0"

@@ -1,0 +1,46 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - karma-browserify > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - karma-phantomjs-launcher > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - eslint > table > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - karma > combine-lists > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - karma-sauce-launcher > sauce-connect-launcher > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - karma-sauce-launcher > wd > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - karma-sauce-launcher > sauce-connect-launcher > async > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - karma-sauce-launcher > wd > async > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - nyc > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - nyc > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - nyc > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - nyc > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - karma-sauce-launcher > wd > archiver > async > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - nyc > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - nyc > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - nyc > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - nyc > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T03:50:40.799Z'
+    - nyc > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T03:50:40.799Z'

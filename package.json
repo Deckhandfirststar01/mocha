@@ -343,7 +343,7 @@
     "nyc": "^13.2.0",
     "rimraf": "^2.5.2",
     "through2": "^2.0.1",
-    "watchify": "^3.7.0"
+    "watchify": "^4.0.0"
   },
   "files": [
     "bin",
